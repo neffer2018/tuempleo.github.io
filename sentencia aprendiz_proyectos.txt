@@ -1,0 +1,1 @@
+SELECT aprendiz.id_apre,aprendiz.nombre,aprendiz.apellido,aprendiz.area,portafoleo.nombre,portafoleo.tipo FROM `aprendiz`,`portafoleo` WHERE aprendiz.id_apre = portafoleo.id_apre and aprendiz.area = "adsi"
